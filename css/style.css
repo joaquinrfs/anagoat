@@ -1,16 +1,16 @@
 @font-face {
 	font-family: "Dancing Script";
 	font-weight: 400;
-	src: url("/fonts/DancingScript-Regular.woff2") format("woff2");
+	src: url("./fonts/DancingScript-Regular.woff2") format("woff2");
 }
 @font-face {
 	font-family: "Roboto";
-	src: url("/fonts/Roboto-Regular.woff2");
+	src: url("./fonts/Roboto-Regular.woff2");
 }
 @font-face {
 	font-family: "Roboto";
 	font-weight: 500;
-	src: url("/fonts/Roboto-Medium.woff2");
+	src: url("../fonts/Roboto-Medium.woff2");
 }
 
 :root {
@@ -32,7 +32,7 @@ body {
 	padding-bottom: 2rem;
 	color: #ffffff;
 	background: #ea828d;
-	background: url("/img/background.jpg") no-repeat center;
+	background: url("../img/background.jpg") no-repeat center;
 	background-size: cover;
 	margin: 0;
 	font-family: Roboto, Arial, sans-serif;
